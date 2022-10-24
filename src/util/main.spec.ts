@@ -1,7 +1,7 @@
-import * as assert from 'assert';
+import * as assert from "assert";
 
-describe('main', () => {
-    it('runs', async () => {
-        expect(true).toBeTruthy();
-    });
+describe("main", () => {
+  it("runs", async () => {
+    expect(true).toBeTruthy();
+  });
 });
