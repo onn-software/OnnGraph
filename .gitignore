@@ -36,3 +36,4 @@ firebase-admin.json
 /dist
 /src/**/*.js
 /src/**/*.map
+/coverage
