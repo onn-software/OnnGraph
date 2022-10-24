@@ -1,0 +1,16 @@
+{
+  "name": "graphonn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npx ts-node src/main.ts",
+    "build": "npx tsc",
+    "serve": "npx node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
