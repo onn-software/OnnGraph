@@ -5,7 +5,7 @@ export class LineReader {
   readLineByLine(
     readStream: fs.ReadStream,
     batchSize: number,
-    onLine: (line: string) => Promise<void>
+    onLine: (line: string) => Promise<unknown>
   ) {
     const lblr = new LineByLineReader(readStream);
 
