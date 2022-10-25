@@ -1,0 +1,4 @@
+FileA1.folderA,FileA2.folderA.java
+File1,File2.java
+File2,FileA1.folderA.java,FileA2.folderA.java
+FileA2.folderA,File1.java
