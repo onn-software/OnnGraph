@@ -8,6 +8,7 @@
     "build": "npx tsc",
     "serve": "npx node dist/main.js",
     "test": "jest",
+    "test:ci": "jest --runInBand --coverage",
     "prepare": "husky install"
   },
   "author": "",
