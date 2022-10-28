@@ -1,6 +1,6 @@
 {
-  "name": "graphonn",
-  "version": "0.0.1",
+  "name": "@onn-software/dependency-graph",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/main.js",
   "scripts": {
@@ -8,6 +8,7 @@
     "build": "npx tsc",
     "serve": "npx node dist/main.js",
     "test": "jest",
+    "test:ci": "jest --runInBand --coverage",
     "prepare": "husky install"
   },
   "author": "",
